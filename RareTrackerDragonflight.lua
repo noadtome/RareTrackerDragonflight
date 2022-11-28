@@ -138,7 +138,7 @@ RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {2024},
     ["zone_name"] = "The Azure Span",
-    ["plugin_name"] = "Dragonflight",
+    ["plugin_name"] = "The Azure Span",
     ["plugin_name_abbreviation"] = "Dragonflight",
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
@@ -183,7 +183,7 @@ RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {2023},
     ["zone_name"] = "Ohn'ahran Plains",
-    ["plugin_name"] = "Dragonflight",
+    ["plugin_name"] = "Ohn'ahran Plains",
     ["plugin_name_abbreviation"] = "Dragonflight",
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
@@ -229,7 +229,7 @@ RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {2025},
     ["zone_name"] = "Thaldraszus",
-    ["plugin_name"] = "Dragonflight",
+    ["plugin_name"] = "Thaldraszus",
     ["plugin_name_abbreviation"] = "Dragonflight",
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
@@ -262,7 +262,7 @@ RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {2022},
     ["zone_name"] = "The Waking Shores",
-    ["plugin_name"] = "Dragonflight",
+    ["plugin_name"] = "The Waking Shores",
     ["plugin_name_abbreviation"] = "Dragonflight",
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
