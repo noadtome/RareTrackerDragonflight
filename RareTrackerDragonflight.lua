@@ -37,6 +37,8 @@ if RareTracker.db.global.window.force_display_in_english then
     L[197353] = "Blisterhide"
     L[197356] = "High Shaman Rotknuckle"
     L[197411] = "Astray Splasher"
+        
+    L[193259] = "Blue Terror"
 
     -- The Ohnahran Plains
     L[193165] = "Sparkspitter Vrak"
@@ -74,6 +76,10 @@ if RareTracker.db.global.window.force_display_in_english then
     L[192557] = "Quackers the Terrible"
     L[195223] = "Rustlily"
     L[196334] = "The Great Enla"
+    
+    L[195895] = "Nergazurai"
+    L[192557] = "Quackers the Terrible"
+    L[193209] = "Zenet Avis"
 
     -- Thaldraszus
     L[193143] = "Razk'vex the Untamed"
@@ -98,6 +104,9 @@ if RareTracker.db.global.window.force_display_in_english then
     L[193663] = "Craggravated Elemental"
     L[193658] = "Corrupted Proto-Dragon"
     L[193664] = "Ancient Protector"
+        
+    L[193273] = "Liskron the Dazzling"
+    L[193234] = "Eldoren the Reborn"
 
     -- The Waking Shores
     L[196056] = "Gushgut the Beaksinker"
@@ -132,6 +141,9 @@ if RareTracker.db.global.window.force_display_in_english then
     L[190991] = "Char"
     L[187306] = "Morchok"
     L[193175] = "Slurpo, the Incredible Snail"
+        
+    L[193217] = "Drakewing"
+    L[193154] = "Forgotten Gryphon"
 end
 
 RareTracker.RegisterRaresForModule({
@@ -176,6 +188,8 @@ RareTracker.RegisterRaresForModule({
         [197353] = {L[197353], 73985, nil}, --"Blisterhide"
         [197356] = {L[197356], 74004, nil}, --"High Shaman Rotknuckle"
         [197411] = {L[197411], nil, nil}, --"Astray Splasher"
+        
+        [193259] = {L[193259], nil, nil}, --"Blue Terror"
     }
 })
 
@@ -222,6 +236,10 @@ RareTracker.RegisterRaresForModule({
         [192557] = {L[192557], nil, nil}, --"Quackers the Terrible"
         [195223] = {L[195223], nil, nil}, --"Rustlily"
         [196334] = {L[196334], nil, nil}, --"The Great Enla"
+        
+        [195895] = {L[195895], nil, nil}, --"Nergazurai"
+        [192557] = {L[192557], nil, nil}, --"Quackers the Terrible"
+        [193209] = {L[193209], nil, nil}, --"Zenet Avis"
     }
 })
 
@@ -255,6 +273,9 @@ RareTracker.RegisterRaresForModule({
         [193663] = {L[193663], 74061, nil}, --"Craggravated Elemental"
         [193658] = {L[193658], 74060, nil}, --"Corrupted Proto-Dragon"
         [193664] = {L[193664], 74055, nil}, --"Ancient Protector"
+        
+        [193273] = {L[193273], nil, nil}, --"Liskron the Dazzling"
+        [193234] = {L[193234], nil, nil}, --"Eldoren the Reborn"
     }
 })
 
@@ -298,5 +319,8 @@ RareTracker.RegisterRaresForModule({
         [190991] = {L[190991], 74043, nil}, --"Char"
         [187306] = {L[187306], 74067, nil}, --"Morchok"
         [193175] = {L[193175], 74079, nil}, --"Slurpo, the Incredible Snail"
+        
+        [193217] = {L[193217], nil, nil}, --"Drakewing"
+        [193154] = {L[193154], nil, nil}, --"Forgotten Gryphon"
     }
 })
