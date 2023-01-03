@@ -37,6 +37,8 @@ L[197353] = "Blisterhide"
 L[197356] = "High Shaman Rotknuckle"
 L[197411] = "Astray Splasher"
 
+L[195353] = "Breezebiter"
+    
 -- The Ohnahran Plains
 L[193165] = "Sparkspitter Vrak"
 L[193142] = "Enraged Sapphire"

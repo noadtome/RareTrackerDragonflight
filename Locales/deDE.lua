@@ -134,3 +134,5 @@ L[193273] = "Liskron der Blendende"
 L[193234] = "Eldoren der Wiedergeborene"
 L[193217] = "Drachenschwinge"
 L[193154] = "Vergessener Greif"
+
+L[195353] = "Brisenbiss"

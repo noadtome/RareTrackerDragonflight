@@ -39,6 +39,8 @@ if RareTracker.db.global.window.force_display_in_english then
     L[197411] = "Astray Splasher"
         
     L[193259] = "Blue Terror"
+        
+    L[195353] = "Breezebiter"
 
     -- The Ohnahran Plains
     L[193165] = "Sparkspitter Vrak"
@@ -190,6 +192,9 @@ RareTracker.RegisterRaresForModule({
         [197411] = {L[197411], nil, nil}, --"Astray Splasher"
         
         [193259] = {L[193259], nil, nil}, --"Blue Terror"
+        
+        [195353] = {L[195353], nil, nil}, --"Breezebiter"
+        
     }
 })
 

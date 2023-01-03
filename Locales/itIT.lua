@@ -134,3 +134,5 @@ L[193273] = "Liskron l'Abbagliante"
 L[193234] = "Eldoren la Rinata"
 L[193217] = "Aladraco"
 L[193154] = "Grifone Dimenticato"
+
+L[195353] = "Mordivento"

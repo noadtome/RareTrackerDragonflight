@@ -134,3 +134,5 @@ L[193273] = "Liskron, o Ofuscante"
 L[193234] = "Eldoren, o Renascido"
 L[193217] = "Asa de Draco"
 L[193154] = "Grifone Dimenticato"
+
+L[195353] = "Mascabrisa"

@@ -134,3 +134,5 @@ L[193273] = "Liskron l'éblouissant"
 L[193234] = "Eldoren le Ressuscité"
 L[193217] = "Aile-de-drake"
 L[193154] = "Griffon oublié"
+
+L[195353] = "Croque-bise"
