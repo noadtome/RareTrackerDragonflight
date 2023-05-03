@@ -203,7 +203,7 @@ if RareTracker.db.global.window.force_display_in_english then
     
     -- Zaralek Cavern
     L[203515] = "Alcanon"
---L[203621] = "Brullo the Strong"
+    L[203621] = "Brullo the Strong"
     L[203664] = "Emberdusk"
     L[203592] = "General Zskorro"
     L[203611] = "Hadexia"
@@ -549,7 +549,7 @@ RareTracker.RegisterRaresForModule({
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
         [203515] = {L[203515], 75284, {56.90, 73.14}}, --"Alcanon"
-        --[203621] = {L[203621], 75326, {41.46, 86.12}}, --"Brullo the Strong"
+        [203621] = {L[203621], 75326, {41.46, 86.12}}, --"Brullo the Strong"
         [203664] = {L[203664], 75361, {31.79, 50.58}}, --"Emberdusk"
         [203592] = {L[203592], 75295, {42.63, 18.88}}, --"General Zskorro"
         [203611] = {L[203611], nil, nil}, --"Hadexia"
