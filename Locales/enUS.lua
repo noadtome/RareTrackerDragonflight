@@ -200,6 +200,7 @@ L[203353] = "Loot Specialist"
 
 -- Zaralek Cavern
 L[203515] = "Alcanon"
+--L[203621] = "Brullo the Strong"
 L[203664] = "Emberdusk"
 L[203592] = "General Zskorro"
 L[203611] = "Hadexia"
