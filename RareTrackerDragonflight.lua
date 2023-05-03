@@ -207,7 +207,7 @@ if RareTracker.db.global.window.force_display_in_english then
     L[203664] = "Emberdusk"
     L[203592] = "General Zskorro"
     L[203611] = "Hadexia"
-    L[203646] = "Jrumm"
+    L[203646] = "Dinn" -- Jrumm
     L[203466] = "Kaprachu"
     L[203462] = "Kob'rok"
     L[203630] = "Lavermix"
@@ -219,11 +219,11 @@ if RareTracker.db.global.window.force_display_in_english then
     L[204093] = "Colossian"
     L[203660] = "Flowfy"
     L[203477] = "Goopal"
-    L[203627] = "Invohq"
-    L[203625] = "Kairoktra"
+    L[203627] = "Invoq" -- Invohq
+    L[203625] = "Karokta" -- Kairoktra
     L[203618] = "Klakatak"
     L[203642] = "Kronkapace"
-    L[200111] = "Magmanesha"
+    L[200111] = "Magtembo" -- Magmanesha
     L[204096] = "Shadowforge Mole Machine"
     L[203480] = "Spinmarrow"
     L[203593] = "Underlight Queen"
@@ -565,7 +565,7 @@ RareTracker.RegisterRaresForModule({
         [204093] = {L[204093], 75475, {48.38, 23.86}}, --"Colossian"
         [203660] = {L[203660], 75357, {35.86, 43.83}}, --"Flowfy"
         [203477] = {L[203477], 75273, {68.80, 45.84}}, --"Goopal"
-        [203627] = {L[203627], 75335, {45.65, 33.30}}, --"Invohq"
+        [203627] = {L[203627], 75335, {45.65, 33.30}}, --"Invoq"
         [203625] = {L[203625], 75333, {42.20, 65.17}}, --"Kairoktra"
         [203618] = {L[203618], 75321, {54.19, 41.77}}, --"Klakatak"
         [203642] = {L[203642], nil, nil}, --"Kronkapace"
