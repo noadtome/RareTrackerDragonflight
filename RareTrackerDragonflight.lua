@@ -512,3 +512,38 @@ RareTracker.RegisterRaresForModule({
         [203353] = {L[203353], nil, nil}, --"Loot Specialist" 
     }
 })
+
+RareTracker.RegisterRaresForModule({
+    -- Define the zone(s) in which the rares are present.
+    ["target_zones"] = {-1},
+    ["zone_name"] = "Zaralek Cavern",
+    ["plugin_name"] = "Zaralek Cavern",
+    ["plugin_name_abbreviation"] = "Dragonflight",
+    ["entities"] = {
+        --npc_id = {name, quest_id, coordinates}
+        [203515] = {L[203515], nil, nil}, --"Alcanon"
+        [203664] = {L[203664], nil, nil}, --"Emberdusk"
+        [203592] = {L[203592], nil, nil}, --"General Zskorro"
+        [203611] = {L[203611], nil, nil}, --"Hadexia"
+        [203646] = {L[203646], nil, nil}, --"Jrumm"
+        [203466] = {L[203466], nil, nil}, --"Kaprachu"
+        [203462] = {L[203462], nil, nil}, --"Kob'rok"
+        [203630] = {L[203630], nil, nil}, --"Lavermix"
+        [203521] = {L[203521], nil, nil}, --"Professor Gastrinax"
+        [203643] = {L[203643], nil, nil}, --"Skornak"
+        [203662] = {L[203662], nil, nil}, --"Subterrax"
+        [201029] = {L[201029], nil, nil}, --"Veridian King"
+        [203468] = {L[203468], nil, nil}, --"Aquifon"
+        [204093] = {L[204093], nil, nil}, --"Colossian"
+        [203660] = {L[203660], nil, nil}, --"Flowfy"
+        [203477] = {L[203477], nil, nil}, --"Goopal"
+        [203627] = {L[203627], nil, nil}, --"Invohq"
+        [203625] = {L[203625], nil, nil}, --"Kairoktra"
+        [203618] = {L[203618], nil, nil}, --"Klakatak"
+        [203642] = {L[203642], nil, nil}, --"Kronkapace"
+        [200111] = {L[200111], nil, nil}, --"Magmanesha"
+        [204096] = {L[204096], nil, nil}, --"Shadowforge Mole Machine"
+        [203480] = {L[203480], nil, nil}, --"Spinmarrow"
+        [203593] = {L[203593], nil, nil}, --"Underlight Queen"
+    }
+})
