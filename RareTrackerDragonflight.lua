@@ -540,6 +540,30 @@ RareTracker.RegisterRaresForModule({
     }
 })
 
+local zaralek_rare_announcements = {
+    [L["The great war beast bathes in the burning fires."]] = 200111,
+    [L["A Champion emerges on the ancient battlefield."]] = 203627,
+    [L["An eerie yet soothing light flickers in the darkness from underneath large wings."]] = 203593,
+    [L["Barked orders can be heard from within the Brimstone Garrison."]] = 203592,
+    [L["A flash of teeth and wings darts across the cavern ceiling."]] = 203625,
+    [L[203462]] = 203462,
+    [L[204093]] = 204093,
+    [L["The drone of ancient drums echoes throughout the cavern."]] = 203646,
+    [L["The earth trembles in the caldera."]] = 203662,
+    [L["Maniacal laughter and explosions can be heard echoing in the cavern."]] = 203521,
+    [L["The crystalline structures begin to stir."]] = 201029,
+    [L[203477]] = 203477,
+    [L[203466]] = 203466,
+    [L["The strong are gathering in Glimmerogg to test their mettle."]] = 203621,
+    [L["You feel the temperature within the cavern rise significantly."]] = 203643,
+    [L[203664]] = 203664,
+    [L["The snapping of great claws can be heard from the waters."]] = 203618,
+    [L["A pair of terrifying howls pierce the air."]] = 203660,
+    [L[203515]] = 203515,
+    [L[203468]] = 203468,
+    [L[203480]] = 203480,
+}
+
 RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {2133, 2184},
@@ -573,5 +597,14 @@ RareTracker.RegisterRaresForModule({
         [204096] = {L[204096], 75576, nil}, --"Shadowforge Mole Machine"
         [203480] = {L[203480], 75275, {54.77, 65.89}}, --"Spinmarrow"
         [203593] = {L[203593], 75297, {57.78, 69.10}}, --"Underlight Queen"
-    }
+    },
+    ["FindMatchForText"] = function(self, text)
+        -- Check if any of the drill rig designations is contained in the broadcast text.
+        for designation, npc_id in pairs(zaralek_rare_announcements) do
+            if text:find(designation) then
+                self:ProcessEntityAlive(npc_id, npc_id, nil, nil, false)
+                return
+            end
+        end
+    end
 })

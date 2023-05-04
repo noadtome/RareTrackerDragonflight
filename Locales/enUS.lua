@@ -224,3 +224,18 @@ L[200111] = "Magtembo" -- Magmanesha
 L[204096] = "Shadowforge Mole Machine"
 L[203480] = "Spinmarrow"
 L[203593] = "Underlight Queen"
+
+-- Zaralek Cavern rare announcement abbreviations. Note: ensure uniqueness between the options.
+L["The great war beast bathes in the burning fires."] = "beast"
+L["A Champion emerges on the ancient battlefield."] = "Champion"
+L["An eerie yet soothing light flickers in the darkness from underneath large wings."] = "eerie"
+L["Barked orders can be heard from within the Brimstone Garrison."] = "Barked"
+L["A flash of teeth and wings darts across the cavern ceiling."] = "wings"
+L["The drone of ancient drums echoes throughout the cavern."] = "drums"
+L["The earth trembles in the caldera."] = "trembles"
+L["Maniacal laughter and explosions can be heard echoing in the cavern."] = "laughter"
+L["The crystalline structures begin to stir."] = "structures"
+L["The strong are gathering in Glimmerogg to test their mettle."] = "strong"
+L["You feel the temperature within the cavern rise significantly."] = "rise"
+L["The snapping of great claws can be heard from the waters."] = "claws"
+L["A pair of terrifying howls pierce the air."] = "howls"
